@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(135deg, #ff4081, #ff6f00); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+/* About section styling */
+#about {
+    background: #ffffff; /* White background */
+    padding: 2em;
+    margin: 20px auto;
+    max-width: 800px; /* Centered content */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects section styling */
+#projects {
+    background: #ffeb3b; /* Bright yellow background */
+    padding: 2em;
+    margin: 20px auto;
+    max-width: 800px; /* Centered content */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #d5006d; /* Bright pink color for section titles */
+}
+
+/* Project list styling */
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0; /* Space between items */
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #1976d2; /* Blue color for links */
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+a:hover {
+    color: #0d47a1; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 1em 0;
+    background: linear-gradient(135deg, #ff4081, #ff6f00); /* Gradient background */
+    color: white;
+    border-top: 5px solid #ff6f00; /* Bright border */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em; /* Smaller header on mobile */
+    }
+
+    h2 {
+        font-size: 1.8em; /* Smaller section titles on mobile */
+    }
+}
